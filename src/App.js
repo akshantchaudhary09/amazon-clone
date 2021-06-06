@@ -6,8 +6,16 @@ import './App.css';
 
 function App() {
   return (
-    // <Home Route path = "/" />
-    <Header Route path = "/" />
+    <div className="app">
+      <Router>
+        <Switch>
+          <Route path="/">
+            <Header />
+            <Home />
+          </Route>
+        </Switch>
+      </Router>
+    </div>
   );
 }
 
