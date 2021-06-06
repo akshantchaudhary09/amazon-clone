@@ -1,0 +1,29 @@
+.header{
+    background-color: #232F3E;
+}
+.amazon-logo {
+    width: 8%;
+    padding: 25px 0px 5px 20px;
+    float: left;
+}
+.header input[type=text] {
+    float: left;
+    padding: 6px;
+    margin: 20px 0px 20px 30px;
+    font-size: 17px;
+    border: none;
+    width: 50%;
+}
+.header button {
+    margin: 20px 25px 20px 0px;
+    background-color: rgb(170, 91, 1) 153 0;
+}
+.header .btn {
+    color:white;
+    margin-top: 3px;
+}
+.header .btn span {
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
