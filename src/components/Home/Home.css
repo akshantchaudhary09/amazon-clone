@@ -3,7 +3,12 @@
     background: url(./images/background-img.jpg);
     background-repeat: no-repeat;
     background-size: 1270px 800px; */
-    height: 800px;
-    background-color:#1e90ff;
-    background-image: linear-gradient(#1e90ff, grey);
+    height: 100%;
+    padding: 0px 10px 10px 10px;
+    background-color:#1e90ff; 
+    background-image: linear-gradient(#1e90ff, rgb(187, 187, 187)); 
+    /* mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); */
+}
+.home .home-container1 {
+    padding-top: 300px;
 }
