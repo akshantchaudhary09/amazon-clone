@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# This is a amazon clone wesite made using react and firebase
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
