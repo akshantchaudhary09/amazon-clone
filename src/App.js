@@ -6,11 +6,11 @@ import './App.css';
 import Login from './components/Login/Login';
 import { auth } from "./firebase";
 import { useStateValue } from './StateProvider.js';
-
+import Checkout from './components/Checkout/Checkout';
 
 function App() {
-  // const [{ user }, dispatch] = useStateValue();
-  useEffect((dispatch) => {
+  const [{ user }, dispatch] = useStateValue();
+  useEffect(() => {
     // will only run once when the app component loads...
 
     auth.onAuthStateChanged((authUser) => {
@@ -39,6 +39,10 @@ function App() {
         <Switch>
           <Route path="/login">
             <Login />
+          </Route>
+          <Route path="/checkout">
+            <Header />
+            <Checkout />
           </Route>
           <Route path="/">
             <Header />
